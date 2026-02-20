@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Tile : MonoBehaviour
@@ -11,13 +9,15 @@ public abstract class Tile : MonoBehaviour
         set => isInteractable = value;
     }
 
-    public event Func<bool> InteractionTest;
+    public event Func<bool> InteractionTest = null;
 
     [SerializeField] private bool isInteractable = true;
 
     public void OnMouseUpAsButton()
     {
-        if (isInteractable && InteractionTest.Invoke())
+        bool? interactionTest = InteractionTest?.Invoke();
+
+        if (isInteractable && (interactionTest.HasValue ? interactionTest.Value : true))
         {
             OnInteracted();
         }
