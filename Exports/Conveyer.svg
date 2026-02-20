@@ -1,0 +1,48 @@
+<svg width="229" height="229" viewBox="0 0 229 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="229" height="229" fill="#1a1a1a"/>
+
+  <!-- Wide center belt -->
+  <rect x="20" y="0" width="189" height="229" fill="#222"/>
+
+  <!-- Left rail ridge -->
+  <rect x="20" y="0" width="16" height="229" fill="#2a2a2a"/>
+  <!-- Right rail ridge -->
+  <rect x="193" y="0" width="16" height="229" fill="#2a2a2a"/>
+
+  <!-- Inner edge shadow lines -->
+  <rect x="36" y="0" width="2" height="229" fill="#1e1e1e"/>
+  <rect x="191" y="0" width="2" height="229" fill="#1e1e1e"/>
+
+  <!--
+    Slat pitch: 229 / 5 = 45.8px
+    Half slat at top (y=0, height=4) and bottom (y=225, height=4)
+    so that stacked tiles produce a full 8px slat at each seam.
+    Full slats at: 45.8, 91.6, 137.4, 183.2
+    Rounded: 46, 92, 137, 183
+  -->
+
+  <!-- Half slat at very top -->
+  <rect x="20" y="0"   width="189" height="4" fill="#2e2e2e"/>
+  <!-- Full slats -->
+  <rect x="20" y="46"  width="189" height="8" fill="#2e2e2e"/>
+  <rect x="20" y="92"  width="189" height="8" fill="#2e2e2e"/>
+  <rect x="20" y="137" width="189" height="8" fill="#2e2e2e"/>
+  <rect x="20" y="183" width="189" height="8" fill="#2e2e2e"/>
+  <!-- Half slat at very bottom -->
+  <rect x="20" y="225" width="189" height="4" fill="#2e2e2e"/>
+
+  <!--
+    Chevrons centered between slats:
+    Between top-edge and slat1: y midpoint = 23 → chevron at 16–30
+    Between slat1 and slat2: midpoint = 69 → chevron at 62–76
+    Between slat2 and slat3: midpoint = 114 → chevron at 107–121
+    Between slat3 and slat4: midpoint = 160 → chevron at 153–167
+    Between slat4 and bottom-edge: midpoint = 206 → chevron at 199–213
+  -->
+  <polyline points="100,16  114.5,30  129,16"  stroke="#2a2a2a" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+  <polyline points="100,62  114.5,76  129,62"  stroke="#2a2a2a" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+  <polyline points="100,107 114.5,121 129,107" stroke="#2a2a2a" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+  <polyline points="100,153 114.5,167 129,153" stroke="#2a2a2a" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+  <polyline points="100,199 114.5,213 129,199" stroke="#2a2a2a" stroke-width="3" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>

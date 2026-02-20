@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1S_Static
+      name: Emitter
       rect:
         serializedVersion: 2
-        x: 102
-        y: 1790
-        width: 70
-        height: 243
+        x: 27
+        y: 1819
+        width: 202
+        height: 202
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ffb20a245e8b9c4aa8a93fcfcfcb7a1
-      internalID: 1640903100
+      spriteID: 04d8fac0250d5534f82d7b09b5559d81
+      internalID: -1821902598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2S_Static
+      name: Receiver
       rect:
         serializedVersion: 2
-        x: 369
-        y: 1790
-        width: 70
-        height: 243
+        x: 284
+        y: 1820
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b867881824b55b47be956c24dc10ba3
-      internalID: 1354961089
+      spriteID: c3c2529878075364f9277919b4e1cfcd
+      internalID: 2007416987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1S_Rotate
+      name: Mirror_1S_NR
       rect:
         serializedVersion: 2
-        x: 551
-        y: 1790
-        width: 185
-        height: 243
+        x: 542
+        y: 1818
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3343c05b09d590449a5b8ba20f7cedd1
-      internalID: -426334534
+      spriteID: c22ee0f8648add14ebbec4d447943956
+      internalID: -365363096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2S_Rotate
+      name: Mirror_1S_R
       rect:
         serializedVersion: 2
-        x: 819
-        y: 1790
-        width: 185
-        height: 243
+        x: 789
+        y: 1811
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55972c82f464b4649b39f47a758110d8
-      internalID: -1160480668
+      spriteID: 26081d3f28d405e47b106724743a97a5
+      internalID: -1879057628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirror_2S_NR
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1831
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da97bf1541247344a9ef2ee95bd19e0a
+      internalID: -405775246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MIrror_2S_R
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1813
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97610ea91e3b6146b49869af8164867
+      internalID: 1894828692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeamSplitter_NR
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1823
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf998622651566840bac991174529802
+      internalID: 1538735293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeamSplitter_R
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1813
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da141d325e2cbdf48905bf8a9424b751
+      internalID: 848846493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyer
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1549
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171a4e67390805c469ef8cce4fd9c59f
+      internalID: -786144332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_C
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1549
+        width: 231
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b5b6c6893facb4c9ccdb5cc05df984
+      internalID: 521324016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_E
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1549
+        width: 230
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c251bef44f060e244902b7e3f5acf5f9
+      internalID: 135230675
       vertices: []
       indices: 
       edges: []
@@ -217,10 +364,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      1S_Rotate: -426334534
-      1S_Static: 1640903100
-      2S_Rotate: -1160480668
-      2S_Static: 1354961089
+      BeamSplitter_NR: 1538735293
+      BeamSplitter_R: 848846493
+      Conveyer: -786144332
+      Emitter: -1821902598
+      Frame_C: 521324016
+      Frame_E: 135230675
+      MIrror_2S_R: 1894828692
+      Mirror_1S_NR: -365363096
+      Mirror_1S_R: -1879057628
+      Mirror_2S_NR: -405775246
+      Receiver: 2007416987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

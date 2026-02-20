@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 1427369984}
   - component: {fileID: 1427369985}
   m_Layer: 0
-  m_Name: '[Mirror] 1S - Rotatable'
+  m_Name: Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,10 +332,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.24101059, y: 0.43185472}
-      - {x: -0.43080547, y: -0.23977277}
-      - {x: -0.23491336, y: -0.43573275}
-      - {x: 0.42976028, y: 0.24001344}
+    - - {x: 0.30793095, y: 0.36111036}
+      - {x: -0.36770913, y: -0.31434113}
+      - {x: -0.25212145, y: -0.4299967}
+      - {x: -0.14497946, y: -0.32533908}
+      - {x: 0.33471638, y: -0.34003115}
+      - {x: 0.3258825, y: 0.14743975}
+      - {x: 0.42784825, y: 0.24574946}
   m_UseDelaunayMesh: 1
 --- !u!58 &1427369985
 CircleCollider2D:
@@ -371,7 +374,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.0038908422, y: 0}
   serializedVersion: 2
-  m_Radius: 0.37110916
+  m_Radius: 0.42660972
 --- !u!1 &2045557954
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,13 +400,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045557954}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1427369983}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2045557956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -445,12 +448,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -426334534, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+  m_Sprite: {fileID: -1879057628, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.85, y: 2.43}
+  m_Size: {x: 0.78125, y: 0.78125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

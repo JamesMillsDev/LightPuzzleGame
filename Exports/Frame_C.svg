@@ -1,0 +1,18 @@
+<svg width="229" height="229" viewBox="0 0 229 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="229" height="229" fill="#1c1f22"/>
+  <polygon points="0,0 229,0 193,36 36,36" fill="#4a5058"/>
+  <polygon points="0,0 36,36 36,193 0,229" fill="#3a3f45"/>
+  <rect x="36" y="36" width="193" height="193" fill="#252a2e"/>
+  <line x1="0" y1="0" x2="229" y2="0" stroke="#8a9199" stroke-width="1.5"/>
+  <line x1="0" y1="0" x2="0" y2="229" stroke="#6a737b" stroke-width="1.5"/>
+  <line x1="36" y1="36" x2="193" y2="36" stroke="#111416" stroke-width="1.5"/>
+  <line x1="36" y1="36" x2="36" y2="193" stroke="#111416" stroke-width="1.5"/>
+  <line x1="0" y1="0" x2="36" y2="36" stroke="#9aa3ac" stroke-width="1"/>
+  <circle cx="54" cy="54" r="4" fill="#1c1f22" stroke="#3a3f45" stroke-width="1"/>
+  <circle cx="54" cy="54" r="1.5" fill="#555e66"/>
+  <line x1="40" y1="4" x2="36" y2="36" stroke="#555e66" stroke-width="0.5" opacity="0.5"/>
+  <line x1="80" y1="4" x2="70" y2="36" stroke="#555e66" stroke-width="0.5" opacity="0.5"/>
+  <line x1="120" y1="4" x2="105" y2="36" stroke="#555e66" stroke-width="0.5" opacity="0.5"/>
+  <line x1="160" y1="4" x2="140" y2="36" stroke="#555e66" stroke-width="0.5" opacity="0.5"/>
+  <line x1="200" y1="4" x2="175" y2="36" stroke="#555e66" stroke-width="0.5" opacity="0.5"/>
+</svg>
