@@ -1,27 +1,30 @@
 using System;
 using UnityEngine;
 
-public abstract class Tile : MonoBehaviour
+namespace LightPuzzle.Tiles
 {
-    public bool IsInteractable
+    public abstract class Tile : MonoBehaviour
     {
-        get => isInteractable;
-        set => isInteractable = value;
-    }
-
-    public event Func<bool> InteractionTest = null;
-
-    [SerializeField] private bool isInteractable = true;
-
-    public void OnMouseUpAsButton()
-    {
-        bool? interactionTest = InteractionTest?.Invoke();
-
-        if (isInteractable && (interactionTest.HasValue ? interactionTest.Value : true))
+        public bool IsInteractable
         {
-            OnInteracted();
+            get => this.isInteractable;
+            set => this.isInteractable = value;
         }
-    }
 
-    protected virtual void OnInteracted() { }
+        public event Func<bool> InteractionTest;
+
+        [SerializeField] private bool isInteractable = true;
+
+        public void OnMouseUpAsButton()
+        {
+            bool? interactionTest = this.InteractionTest?.Invoke();
+
+            if (this.isInteractable && (interactionTest ?? true))
+            {
+                OnInteracted();
+            }
+        }
+
+        protected virtual void OnInteracted() { }
+    }
 }

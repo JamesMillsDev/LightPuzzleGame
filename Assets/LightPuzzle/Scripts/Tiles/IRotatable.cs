@@ -1,10 +1,13 @@
 using System;
 
-public interface IRotatable
+namespace LightPuzzle.Tiles
 {
-    public float RotateAmount { get; }
+    public interface IRotatable
+    {
+        public float RotateAmount { get; }
 
-    public float RotateTime { get; }
+        public float RotateTime { get; }
 
-    public Func<float, float> GetSmoothingFunction();
+        public Func<float, float> GetSmoothingFunction();
+    }
 }

@@ -1,27 +1,29 @@
 ﻿using System;
-using System.Data;
+using LightPuzzle.Utility;
 using UnityEngine;
 
-public class RotatableMirror : Mirror, IRotatable
+namespace LightPuzzle.Tiles
 {
-    public float RotateAmount => 90f;
-
-    public float RotateTime => rotationTime;
-
-    [SerializeField] private AnimationCurve smoothingCurve;
-    [SerializeField] private float rotationTime = 1f;
-
-    public Func<float, float> GetSmoothingFunction() => (float time) => smoothingCurve.Evaluate(time);
-
-    protected override void OnInteracted()
+    public class RotatableMirror : Mirror, IRotatable
     {
-        IsInteractable = false;
-        StartCoroutine(
-            TransformUtilities.Rotate(
-                transform, RotateAmount, RotateTime,
-                () => IsInteractable = true,
-                GetSmoothingFunction()
-            )
-        );
+        public float RotateAmount => 90f;
+
+        public float RotateTime => this.rotationTime;
+
+        [SerializeField] private AnimationCurve smoothingCurve;
+        [SerializeField] private float rotationTime = 1f;
+
+        public Func<float, float> GetSmoothingFunction() => time => this.smoothingCurve.Evaluate(time);
+
+        protected override void OnInteracted()
+        {
+            this.IsInteractable = false;
+            StartCoroutine(
+                TransformUtilities.Rotate(this.transform, this.RotateAmount, this.RotateTime,
+                    () => this.IsInteractable = true,
+                    GetSmoothingFunction()
+                )
+            );
+        }
     }
 }

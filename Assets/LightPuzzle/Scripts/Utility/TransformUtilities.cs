@@ -2,30 +2,31 @@
 using System.Collections;
 using UnityEngine;
 
-public static class TransformUtilities
+namespace LightPuzzle.Utility
 {
-    public static IEnumerator Rotate(Transform transform, float amount, float time, Action onCompleted = null, Func<float, float> customFactorCalc = null)
+    public static class TransformUtilities
     {
-        float currentTime = 0f;
-        Quaternion initialRot = transform.rotation;
-        Quaternion targetRotation = initialRot * Quaternion.Euler(0f, 0f, amount);
-
-        while(currentTime < time)
+        public static IEnumerator Rotate(Transform transform, float amount, float time, Action onCompleted = null, Func<float, float> customFactorCalc = null)
         {
-            float factor = customFactorCalc == null ? 
-                currentTime / time : 
-                customFactorCalc.Invoke(currentTime / time);
+            float currentTime = 0f;
+            Quaternion initialRot = transform.rotation;
+            Quaternion targetRotation = initialRot * Quaternion.Euler(0f, 0f, amount);
 
-            Quaternion rot = Quaternion.Slerp(initialRot, targetRotation, factor);
+            while(currentTime < time)
+            {
+                float factor = customFactorCalc?.Invoke(currentTime / time) ?? currentTime / time;
 
-            transform.rotation = rot;
+                Quaternion rot = Quaternion.Slerp(initialRot, targetRotation, factor);
 
-            yield return null;
+                transform.rotation = rot;
 
-            currentTime += Time.deltaTime;
+                yield return null;
+
+                currentTime += Time.deltaTime;
+            }
+
+            transform.rotation = targetRotation;
+            onCompleted?.Invoke();
         }
-
-        transform.rotation = targetRotation;
-        onCompleted?.Invoke();
     }
 }

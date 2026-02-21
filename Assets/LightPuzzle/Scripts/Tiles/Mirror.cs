@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Mirror : SidedTile
+namespace LightPuzzle.Tiles
 {
+	public class Mirror : SidedTile
+	{
     
+	}
 }
