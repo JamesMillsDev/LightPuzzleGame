@@ -10,24 +10,40 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1322677489379617719, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Name
-      value: Mirror_1S_NR
+      value: Teleporter_NR
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_Size.x
+      value: 0.63423073
       objectReference: {fileID: 0}
     - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Size.y
-      value: 0.15336016
+      value: 0.62916434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.022207975
       objectReference: {fileID: 0}
     - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Offset.y
-      value: -0.010394681
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309610346614610170, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
-      propertyPath: validSides
-      value: -1
+      value: 0.023373798
       objectReference: {fileID: 0}
     - target: {fileID: 2728301618529995377, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -365363096, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+      objectReference: {fileID: 1642743775, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+    - target: {fileID: 4692033577849495805, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692033577849495805, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692033577849495805, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6689369474625025407, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -70,7 +86,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6950714180081304196, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+    - {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5897065010277672472, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8666323006538922121}
   m_SourcePrefab: {fileID: 100100000, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+--- !u!1 &4629049906262600821 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897065010277672472, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+  m_PrefabInstance: {fileID: 1291166671434287725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &8666323006538922121
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629049906262600821}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.3312655, y: 0.2025521}
+      - {x: -0.0065904856, y: 0.38418487}
+      - {x: -0.34805334, y: 0.20349142}
+      - {x: -0.34376022, y: -0.16665727}
+      - {x: -0.0043340325, y: -0.34608728}
+      - {x: 0.3300834, y: -0.16013518}
+  m_UseDelaunayMesh: 0
