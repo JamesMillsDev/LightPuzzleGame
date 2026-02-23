@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,40 +126,40 @@ TextureImporter:
       name: Emitter
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1819
-        width: 202
-        height: 202
+        x: 0
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04d8fac0250d5534f82d7b09b5559d81
+      spriteID: 669d5a5c39369f343b5807aa362fa3c6
       internalID: -1821902598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Receiver
+      name: Reciever
       rect:
         serializedVersion: 2
-        x: 284
-        y: 1820
-        width: 200
-        height: 200
+        x: 256
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c2529878075364f9277919b4e1cfcd
-      internalID: 2007416987
+      spriteID: d7e0e348196e44c43968158fd721f1ce
+      internalID: -1411477758
       vertices: []
       indices: 
       edges: []
@@ -168,18 +168,18 @@ TextureImporter:
       name: Mirror_1S_NR
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1818
-        width: 200
-        height: 200
+        x: 512
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c22ee0f8648add14ebbec4d447943956
+      spriteID: 8dfc0abd425a7524ebae6a7c6ff37e5e
       internalID: -365363096
       vertices: []
       indices: 
@@ -189,18 +189,18 @@ TextureImporter:
       name: Mirror_1S_R
       rect:
         serializedVersion: 2
-        x: 789
-        y: 1811
-        width: 216
-        height: 216
+        x: 768
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26081d3f28d405e47b106724743a97a5
+      spriteID: 3a619a2bb2d481f478c2768ec52331a4
       internalID: -1879057628
       vertices: []
       indices: 
@@ -210,40 +210,40 @@ TextureImporter:
       name: Mirror_2S_NR
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 1831
-        width: 178
-        height: 178
+        x: 1024
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da97bf1541247344a9ef2ee95bd19e0a
+      spriteID: 85d513d84f0b3e44ca6692f9ddded94f
       internalID: -405775246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MIrror_2S_R
+      name: Mirror_2S_R
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 1813
-        width: 214
-        height: 214
+        x: 1280
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c97610ea91e3b6146b49869af8164867
-      internalID: 1894828692
+      spriteID: ca7b23875cb6f8747844927e100ad2ba
+      internalID: 1114060219
       vertices: []
       indices: 
       edges: []
@@ -252,18 +252,18 @@ TextureImporter:
       name: BeamSplitter_NR
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 1823
-        width: 194
-        height: 194
+        x: 1536
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf998622651566840bac991174529802
+      spriteID: 0120cdf8a5d9c4641b0734ca228e3706
       internalID: 1538735293
       vertices: []
       indices: 
@@ -273,18 +273,18 @@ TextureImporter:
       name: BeamSplitter_R
       rect:
         serializedVersion: 2
-        x: 1813
-        y: 1813
-        width: 214
-        height: 214
+        x: 1792
+        y: 1792
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da141d325e2cbdf48905bf8a9424b751
+      spriteID: edcfb595b1e528947814871a98a6910e
       internalID: 848846493
       vertices: []
       indices: 
@@ -294,18 +294,18 @@ TextureImporter:
       name: Conveyer
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1549
-        width: 230
-        height: 230
+        x: 0
+        y: 1536
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 171a4e67390805c469ef8cce4fd9c59f
+      spriteID: d49ccd41e28ee0147a41dea880bb4622
       internalID: -786144332
       vertices: []
       indices: 
@@ -315,18 +315,18 @@ TextureImporter:
       name: Frame_C
       rect:
         serializedVersion: 2
-        x: 268
-        y: 1549
-        width: 231
-        height: 231
+        x: 256
+        y: 1536
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b5b6c6893facb4c9ccdb5cc05df984
+      spriteID: 5087ead6f4bd7904e999d919285a20df
       internalID: 521324016
       vertices: []
       indices: 
@@ -336,18 +336,18 @@ TextureImporter:
       name: Frame_E
       rect:
         serializedVersion: 2
-        x: 525
-        y: 1549
-        width: 230
-        height: 231
+        x: 512
+        y: 1536
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c251bef44f060e244902b7e3f5acf5f9
+      spriteID: d785f76eb753fdd4caae30b78070eaee
       internalID: 135230675
       vertices: []
       indices: 
@@ -370,11 +370,12 @@ TextureImporter:
       Emitter: -1821902598
       Frame_C: 521324016
       Frame_E: 135230675
-      MIrror_2S_R: 1894828692
       Mirror_1S_NR: -365363096
       Mirror_1S_R: -1879057628
       Mirror_2S_NR: -405775246
-      Receiver: 2007416987
+      Mirror_2S_R: 1114060219
+      Reciever: -1411477758
+      SpriteSheet_11: -1620391628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
