@@ -226,10 +226,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emitter
       objectReference: {fileID: 0}
-    - target: {fileID: 4300344987366102481, guid: b28022160bee29f44aa0db55ce5bff6e, type: 3}
-      propertyPath: isInteractable
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5565973219589472018, guid: b28022160bee29f44aa0db55ce5bff6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5
