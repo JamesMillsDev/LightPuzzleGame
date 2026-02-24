@@ -2,6 +2,11 @@
 {
 	public class Receiver : Tile
 	{
-		
+		public bool IsReceivingBeam { get; private set; }
+
+		public override void HandleBeam(bool receiving)
+		{
+			IsReceivingBeam = receiving;
+		}
 	}
 }

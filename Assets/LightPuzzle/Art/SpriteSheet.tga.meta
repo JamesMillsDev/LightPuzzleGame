@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mirror_1S_NR
+      name: Mirror_1S
       rect:
         serializedVersion: 2
         x: 512
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mirror_1S_R
+      name: Mirror_2S
       rect:
         serializedVersion: 2
         x: 768
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mirror_2S_NR
+      name: BeamSplitter
       rect:
         serializedVersion: 2
         x: 1024
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mirror_2S_R
+      name: Teleporter
       rect:
         serializedVersion: 2
         x: 1280
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BeamSplitter_NR
+      name: RotationIndicator
       rect:
         serializedVersion: 2
         x: 1536
@@ -270,91 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BeamSplitter_R
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 1792
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edcfb595b1e528947814871a98a6910e
-      internalID: 848846493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Conveyer
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d49ccd41e28ee0147a41dea880bb4622
-      internalID: -786144332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Frame_C
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 1280
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5087ead6f4bd7904e999d919285a20df
-      internalID: 521324016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Frame_E
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 1280
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d785f76eb753fdd4caae30b78070eaee
-      internalID: 135230675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Teleporter_NR
       rect:
         serializedVersion: 2
         x: 0
@@ -362,7 +278,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,10 +291,31 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teleporter_R
+      name: Frame_C
       rect:
         serializedVersion: 2
         x: 256
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccc5d7dd5876274d8a18b3be43aeaea
+      internalID: 43256509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_E
+      rect:
+        serializedVersion: 2
+        x: 512
         y: 1536
         width: 256
         height: 256
@@ -389,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ccc5d7dd5876274d8a18b3be43aeaea
-      internalID: 43256509
+      spriteID: 2515d6c08885a7f47bc121b9e7f50646
+      internalID: 135230675
       vertices: []
       indices: 
       edges: []
@@ -406,20 +343,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BeamSplitter_NR: 1538735293
+      BeamSplitter: -405775246
       BeamSplitter_R: 848846493
-      Conveyer: -786144332
+      Conveyer: 1642743775
       Emitter: -1821902598
-      Frame_C: 521324016
+      Frame_C: 43256509
       Frame_E: 135230675
-      Mirror_1S_NR: -365363096
-      Mirror_1S_R: -1879057628
-      Mirror_2S_NR: -405775246
-      Mirror_2S_R: 1114060219
+      Mirror_1S: -365363096
+      Mirror_2S: -1879057628
       Reciever: -1411477758
+      RotationIndicator: 1538735293
       SpriteSheet_11: -1620391628
-      Teleporter_NR: 1642743775
-      Teleporter_R: 43256509
+      Teleporter: 1114060219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

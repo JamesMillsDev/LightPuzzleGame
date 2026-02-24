@@ -4,14 +4,6 @@ namespace LightPuzzle.Tiles
     {
         public Direction validSides = Direction.All;
 
-        private void OnEnable()
-        {
-
-        }
-
-        private void OnDisable()
-        {
-        
-        }
+        public override bool IsValidBeamSide(Direction direction) => (direction & validSides) == direction;
     }
 }

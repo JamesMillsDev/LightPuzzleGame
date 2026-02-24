@@ -31,7 +31,11 @@ PrefabInstance:
     - target: {fileID: 2728301618529995377, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1538735293, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+      objectReference: {fileID: -405775246, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+    - target: {fileID: 2728301618529995377, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4692033577849495805, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -86,7 +90,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6950714180081304196, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5624475065805717284, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}

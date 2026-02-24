@@ -31,7 +31,7 @@ PrefabInstance:
     - target: {fileID: 2728301618529995377, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 43256509, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+      objectReference: {fileID: 1114060219, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
     - target: {fileID: 4692033577849495805, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -142,10 +142,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.31464216, y: 0.2025521}
-      - {x: 0.00032307208, y: 0.38418487}
-      - {x: -0.31480667, y: 0.20072086}
-      - {x: -0.3146694, y: -0.16111615}
-      - {x: -0.0043340325, y: -0.34608728}
-      - {x: 0.31484535, y: -0.16152048}
+    - - {x: 0.35493794, y: 0.18550389}
+      - {x: 0.015821472, y: 0.3686865}
+      - {x: -0.3241057, y: 0.18832216}
+      - {x: -0.32396844, y: -0.1843637}
+      - {x: 0.014264017, y: -0.37088466}
+      - {x: 0.35669094, y: -0.18476804}
   m_UseDelaunayMesh: 0
