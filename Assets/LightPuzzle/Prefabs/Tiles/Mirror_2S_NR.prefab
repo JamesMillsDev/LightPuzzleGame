@@ -20,10 +20,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.00006798655
       objectReference: {fileID: 0}
+    - target: {fileID: 2309610346614610170, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: interactionController
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2728301618529995377, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -405775246, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
+      objectReference: {fileID: -1879057628, guid: 21d96a570db71fb4e9943657e5abbcdd, type: 3}
     - target: {fileID: 6689369474625025407, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
