@@ -7,6 +7,7 @@ UserSettings/
 .vs/
 .idea/
 *.DotSettings
+*.user
 *.csproj
 *.sln
 *.kra~

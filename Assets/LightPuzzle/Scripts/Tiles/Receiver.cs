@@ -8,5 +8,7 @@
 		{
 			IsReceivingBeam = receiving;
 		}
+
+		public override bool IsBeamModifier() => false;
 	}
 }

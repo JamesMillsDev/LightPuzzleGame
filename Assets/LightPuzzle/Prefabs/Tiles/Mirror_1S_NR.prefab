@@ -13,16 +13,28 @@ PrefabInstance:
       value: Mirror_1S_NR
       objectReference: {fileID: 0}
     - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_Size.x
+      value: 0.94783247
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Size.y
-      value: 0.15336016
+      value: 0.13362329
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0035902262
       objectReference: {fileID: 0}
     - target: {fileID: 2086370762320068103, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Offset.y
-      value: -0.010394681
+      value: 0.013405658
       objectReference: {fileID: 0}
     - target: {fileID: 2309610346614610170, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: validSides
-      value: -1
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309610346614610170, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
+      propertyPath: interactionController
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2728301618529995377, guid: 08f4b1ff3c2f6434b96e838c91c5c218, type: 3}
       propertyPath: m_Sprite
