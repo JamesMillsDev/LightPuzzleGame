@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInteractable: 1
-  validSides: -1
+  validSides: -7
   smoothingCurve:
     serializedVersion: 2
     m_Curve:
